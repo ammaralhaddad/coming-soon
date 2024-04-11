@@ -68,6 +68,8 @@
 
   .clock-content h3 {
     font-size: 1.5rem;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   .down-clock {
