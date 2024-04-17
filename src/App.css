@@ -8,7 +8,7 @@
   background-color: #000;
 }
 
-.clock-content {
+.content {
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -16,30 +16,19 @@
   flex-direction: column;
 }
 
-.clock-content h1 {
+.content h1 {
   color: var(--primary-color);
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
-.clock-content h3 {
+.content h3 {
   color: var(--secondary-color);
   font-size: 2rem;
 }
 
-.down-clock {
-  --fcc-flip-duration: 0.5s;
-  --fcc-digit-block-width: 50px;
-  --fcc-digit-block-height: 70px;
-  --fcc-digit-font-size: 80px;
-  --fcc-digit-color: white;
-  --fcc-label-font-size: 20px;
-  --fcc-label-color: #ffffff;
-  --fcc-background: black;
-  --fcc-separator-size: 6px;
-  --fcc-separator-color: var(--primary-color);
-}
+
 
 .button {
   width: 140px;
